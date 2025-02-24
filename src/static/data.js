@@ -198,14 +198,14 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "Cosmetics and body care",
       subTitle: "",
       image_Url:
         "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
     },
     {
       id: 3,
-      title: "Accesories",
+      title: "Accessories",
       subTitle: "",
       image_Url:
         "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
@@ -222,20 +222,20 @@ export const navItems = [
       title: "Shoes",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://m.media-amazon.com/images/I/61gKatv2y7L._SX695_.jpg",
     },
     {
       id: 6,
       title: "Gifts",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+        "https://png.pngtree.com/template/20191029/ourmid/pngtree-gift-box-vector-logo-design-illustration-of-gift-box-present-greeting-image_324556.jpg",
     },
     {
       id: 7,
       title: "Pet Care",
       subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+      image_Url: "https://logowik.com/content/uploads/images/animal-care-pet91179.logowik.com.webp",
     },
     {
       id: 8,
@@ -320,7 +320,6 @@ export const navItems = [
       rating: 5,
       total_sell: 80,
       stock: 10,
-      category:"Mobile & Tablets"
     },
     {
       id: 1,
@@ -351,7 +350,6 @@ export const navItems = [
       rating: 4,
       total_sell: 75,
       stock: 10,
-      category:"Computers & Laptop"
     },
     {
       id: 4,
@@ -376,7 +374,6 @@ export const navItems = [
           url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
         },
         ratings: 4.2,
-      category:"Others"
       },
       price: 100,
       discount_price: 79,
@@ -413,7 +410,6 @@ export const navItems = [
       rating: 5,
       total_sell: 49,
       stock: 10,
-      category:"Shoes"
     },
     {
       id: 1,
