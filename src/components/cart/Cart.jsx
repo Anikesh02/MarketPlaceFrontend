@@ -32,7 +32,7 @@ const Cart = ({ setOpenCart }) => {
         {cart && cart.length === 0 ? (
           <div className="w-full h-screen flex items-center justify-center">
             <div className="flex w-full justify-end pt-5 pr-5 fixed top-3 right-3">
-               <RxCross1 
+               <RxCross1
                 size={25}
                 className="cursor-pointer"
                 onClick={() => setOpenCart(false)}
@@ -113,7 +113,12 @@ const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
   return (
     <div className="border-b p-4">
       <div className="w-full flex items-center">
-        <div>
+        <div className="flex flex-col items-center">
+          <RxCross1
+            size={30}
+            className="cursor-pointer mb-2"
+            onClick={() => removeFromCartHandler(data)}
+          />
           <div
             className={`bg-[#e44343] border border-[#e4434373] rounded-full w-[25px] h-[25px] ${styles.noramlFlex} justify-center cursor-pointer`}
             onClick={() => increment(data)}
@@ -142,10 +147,6 @@ const CartSingle = ({ data, quantityChangeHandler, removeFromCartHandler }) => {
             US${totalPrice}
           </h4>
         </div>
-        <RxCross1
-          className="cursor-pointer"
-          onClick={() => removeFromCartHandler(data)}
-        />
       </div>
     </div>
   );
